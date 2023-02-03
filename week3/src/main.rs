@@ -10,7 +10,7 @@ struct Cli {
 #[derive(Parser)]
 enum Commands {
     #[clap(version = "1.0", author = "Noah Gift", about = "A sort.")]
-    SortMe {
+    MostFreq {
         #[clap(short, long)]
         name: String,
     },
@@ -22,10 +22,10 @@ fn main() {
     let args = Cli::parse();
     match args.command {
 
-        Some(Commands::SortMe { name }) => {
-            hello::my_sort(&name);
+        Some(Commands::MostFreq { name }) => {
+            hello::most_frequent(&name);
         }
         None => println!("No command was used"),
     }
 }
-// cargo run -- sort-me --name "1 2 4"
+// cargo run -- most-freq --name "1 4 2 1"
