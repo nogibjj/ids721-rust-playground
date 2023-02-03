@@ -1,5 +1,6 @@
 # ids721-rust-playground
 
+# Mini Project
 # Week 2 Demo
 In this week, I learned how to install rust, and how to use rust to write a simple program.
 Week 2 summary:
