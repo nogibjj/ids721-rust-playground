@@ -1,6 +1,7 @@
 # ids721-rust-playground
 
 # Week 2 Demo
+# Week 2 Demo
 In this week, I learned how to install rust, and how to use rust to write a simple program.
 Week 2 summary:
 * Create a new github repository
