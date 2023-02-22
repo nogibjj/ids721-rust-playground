@@ -24,11 +24,19 @@ For example:
 cargo run -- text-wrap --name "If you need a small quick library that knows how to wrap text for command line utilities, take a look at this crate."
 
 If you need
+
 a small quick
+
 library that
+
 knows how to
+
 wrap text for
+
 command line
+
 utilities,
+
 take a look at
+
 this crate.
