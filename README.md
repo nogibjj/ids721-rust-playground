@@ -61,6 +61,8 @@ The factorial of 4 is 24
 
 
 # Week 9 Demo
+A Rust program that generates a QR code for a given input string and saves it to a file using the qrcode crate
+
 Please enter the text to encode:
 hello world!
 QR code saved to qrcode.txt
