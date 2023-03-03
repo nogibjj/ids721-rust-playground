@@ -49,4 +49,12 @@ A Rust program that prints a random Chuck Norris joke to the console. This progr
 
 # Week 7 Demo
 A Rust program that generates a random password using the rand crate. It creates a new ThreadRng random number generator and uses the sample_iter() method to generate an iterator of random alphanumeric characters. It then uses the take() method to limit the iterator to 16 characters and the map() method to convert the characters to a String. 
+
 Your new password is: 0KdLEID7a6HcFg50
+
+# Week 8 Demo
+A Rust program that calculates the factorial of a number using recursion. This program prompts the user to enter a positive integer, reads the input from the console, and calculates the factorial of the number.
+
+Please enter a positive integer:
+4
+The factorial of 4 is 24
