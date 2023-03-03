@@ -43,3 +43,6 @@ this crate.
 
 # Week 5 Demo
 A simple rust program to send HTTP Get request using reqwest and tokio
+
+# Week 6 Demo
+A Rust program that prints a random Chuck Norris joke to the console. This program uses the reqwest library to make an HTTP GET request to the Chuck Norris joke API, which returns a random joke in JSON format. It then deserializes the JSON response into a Joke struct and prints the joke to the console
