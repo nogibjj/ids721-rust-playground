@@ -64,6 +64,8 @@ The factorial of 4 is 24
 Please enter the text to encode:
 hello world!
 QR code saved to qrcode.txt
+
+
 ███████   █   █   █   █   ███████
 █     █  █   █   █   █    █     █
 █ ███ █ █  █   █   █   █  █ ███ █
