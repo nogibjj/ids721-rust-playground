@@ -67,7 +67,7 @@ Please enter the text to encode:
 hello world!
 QR code saved to qrcode.txt
 
-
+```rust
 ███████   █   █   █   █   ███████
 █     █  █   █   █   █    █     █
 █ ███ █ █  █   █   █   █  █ ███ █
@@ -101,3 +101,4 @@ QR code saved to qrcode.txt
 █ ███ █ █ █  █   █   █ █  █ █ █ █
 █     █ █ ██   █   █     █ █   █ 
 ███████ █ █ █   █   █   █████  ██
+```
