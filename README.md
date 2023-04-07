@@ -103,7 +103,7 @@ QR code saved to qrcode.txt
 ███████ █ █ █   █   █   █████  ██
 ```
 
-# week10 demo
+# Week10 demo
 A Rust generates a random maze using the Depth-First Search algorithm and prints it to the console.
 ```
 ██████████████████████████████████████████
@@ -117,4 +117,18 @@ A Rust generates a random maze using the Depth-First Search algorithm and prints
 ██  ██  ██  ██████████████████████████████
 ██  ██  ██                              ██
 ██████████████████████████████████████████
+```
+
+# Week 11 demo
+This program encodes and decodes a given text using a Caesar cipher, a simple substitution cipher where each character is replaced with another character based on a fixed shift value. The user is prompted to input the text and shift value, and the program then displays the original text, the encoded text, and the decoded text.
+```
+Enter the text to encode/decode:
+abcdefj
+Enter the shift value:
+2
+Original text: abcdefj
+
+Encoded text: cdefghl
+
+Decoded text: abcdefj
 ```
