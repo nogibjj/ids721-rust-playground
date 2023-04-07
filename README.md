@@ -22,25 +22,17 @@ TextWrap is a powerful library for word wrapping, indenting, and dedenting strin
 
 For example:
 cargo run -- text-wrap --name "If you need a small quick library that knows how to wrap text for command line utilities, take a look at this crate."
-
+```
 If you need
-
 a small quick
-
 library that
-
 knows how to
-
 wrap text for
-
 command line
-
 utilities,
-
 take a look at
-
 this crate.
-
+```
 # Week 5 Demo
 A simple rust program to send HTTP Get request using reqwest and tokio
 
@@ -158,4 +150,42 @@ This program generates a random ASCII art landscape using the "🌲" emoji as tr
                   🌲      🌲    🌲      
                     🌲    🌲            
               🌲      
+```
+
+# Week 13
+This program generates an ASCII art representation of the Sierpinski triangle with a size of SIZE. The Sierpinski triangle is a fractal pattern formed by recursively subdividing an equilateral triangle into smaller equilateral triangles.
+
+```
+********************************
+* * * * * * * * * * * * * * * * 
+**  **  **  **  **  **  **  **  
+*   *   *   *   *   *   *   *   
+****    ****    ****    ****    
+* *     * *     * *     * *     
+**      **      **      **      
+*       *       *       *       
+********        ********        
+* * * *         * * * *         
+**  **          **  **          
+*   *           *   *           
+****            ****            
+* *             * *             
+**              **              
+*               *               
+****************                
+* * * * * * * *                 
+**  **  **  **                  
+*   *   *   *                   
+****    ****                    
+* *     * *                     
+**      **                      
+*       *                       
+********                        
+* * * *                         
+**  **                          
+*   *                           
+****                            
+* *                             
+**                              
+*   
 ```
