@@ -105,6 +105,7 @@ QR code saved to qrcode.txt
 
 # week10 demo
 A Rust generates a random maze using the Depth-First Search algorithm and prints it to the console.
+```
 ██████████████████████████████████████████
 ██                                      ██
 ██  ██████████████████████████████████████
@@ -116,3 +117,4 @@ A Rust generates a random maze using the Depth-First Search algorithm and prints
 ██  ██  ██  ██████████████████████████████
 ██  ██  ██                              ██
 ██████████████████████████████████████████
+```
