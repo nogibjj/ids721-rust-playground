@@ -132,3 +132,30 @@ Encoded text: cdefghl
 
 Decoded text: abcdefj
 ```
+
+# Week 12
+This program generates a random ASCII art landscape using the "🌲" emoji as trees, based on a given tree probability. The landscape is represented by a grid of WIDTH x HEIGHT, and each cell either contains a tree or is empty. The program uses the rand crate to generate random tree locations.
+
+
+```
+    🌲🌲      🌲                        
+            🌲                          
+      🌲                  🌲🌲          
+🌲      🌲        🌲                    
+🌲  🌲                                  
+  🌲              🌲          🌲        
+🌲                            🌲        
+🌲          🌲                          
+🌲                                      
+    🌲  🌲  🌲        🌲                
+                                        
+  🌲                🌲                  
+                        🌲            🌲
+                                    🌲  
+        🌲        🌲        🌲          
+                                        
+            🌲  🌲                      
+                  🌲      🌲    🌲      
+                    🌲    🌲            
+              🌲      
+```
